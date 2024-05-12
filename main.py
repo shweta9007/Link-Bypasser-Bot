@@ -110,7 +110,7 @@ def loopthread(message,otherss=False):
 # start command
 @app.on_message(filters.command(["start"]))
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
-    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**,  i Am URL-BYPASS GROUP BOT, Just Send Me Any Supported Links And I Will YOU get You Results & One More SomeTime I Don't Give You Results It Doesn't Mean I'M Angry With You I Am Also An Online Machine, I Also Get Tired.\nCheckout /help to Read More__",
+    app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**,  i Am URL-BYPASS GROUP BOT, Just Send Me Any Supported Links And I Will YOU get You Results & One More SomeTime I Don't Give You Results It Doesn't Mean I'M Angry With You I Am Also An Online Machine, I Also Get Tired I hope you are understand Thank you🤝❤️.\nCheckout /help to Read More__",
     reply_markup=InlineKeyboardMarkup([
         [ InlineKeyboardButton("🌐 Source Code", url="https://github.com/bipinkrish/Link-Bypasser-Bot")],
         [ InlineKeyboardButton("Replit", url="https://replit.com/@bipinkrish/Link-Bypasser#app.py") ]]), 
