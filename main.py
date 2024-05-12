@@ -112,8 +112,8 @@ def loopthread(message,otherss=False):
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
     app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**,  i Am URL-BYPASS GROUP BOT, Just Send Me Any Supported Links And I Will YOU get You Results & One More SomeTime I Don't Give You Results It Doesn't Mean I'M Angry With You I Am Also An Online Machine, I Also Get Tired that's why I need Rest I hope you are understand Thank you🤝❤️.\nCheckout /help to Read More__",
     reply_markup=InlineKeyboardMarkup([
-        [ InlineKeyboardButton("⚡Authorised Group", url="https://t.me/Bypassgroup")],
-        [ InlineKeyboardButton("Replit", url="https://replit.com/@bipinkrish/Link-Bypasser#app.py") ]]), 
+        [ InlineKeyboardButton("⚡Authorised Group⚡", url="https://t.me/Bypassgroup")],
+        [ InlineKeyboardButton("👁️‍🗨️ About Me 👁️‍🗨️", url="https://graph.org/URL-BYPASS-GROUP-ADMIN-DETAIL-05-12") ]]), 
         reply_to_message_id=message.id)
 
 
